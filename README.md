@@ -28,7 +28,7 @@ By using this approach the time complexity will be O(n^2)
   
 With this approach the time complexity will be O(n)
 
-Leetcode Profile - [https://leetcode.com/j-lokesh/] Tap me
+Leetcode Profile - [https://leetcode.com/j-lokesh/](Tap me)
 
 
 
