@@ -10,25 +10,25 @@ Return the maximum amount of water a container can store.
 
 # Approach
 1) we can solve this by brute force i.e.,
-   a) Iterate over the array(heights) from i=0 to len(height)
-   b) Iterate j from i+1 to len(height)
-   c) Store area as
+   - Iterate over the array(heights) from i=0 to len(height)
+   - Iterate j from i+1 to len(height)
+   - Store area as
      - area = width * height i.e.,
      - area = (i-j) * min(height[i],height[j])
-   d) Update the area using "max" function
+   - Update the area using "max" function
 
 By using this approach the time complexity will be O(n^2)
 
 2) 2-pointer approach
-   a) Take two pointers left =0 and right = len(height)-1
-   b) While left is less than right calculate area as discussed to brute force approach
-   c) Now we need to update the left and right pointers based on the condition i.e.,
+   - Take two pointers left =0 and right = len(height)-1
+   - While left is less than right calculate area as discussed to brute force approach
+   - Now we need to update the left and right pointers based on the condition i.e.,
     - if height[left] < height[right], update left = left + 1
     - else we can update the right = right - 1
   
 With this approach the time complexity will be O(n)
 
-Leetcode Profile - [https://leetcode.com/j-lokesh/](Tap me)
+Leetcode Profile - [https://leetcode.com/j-lokesh/]
 
 
 
